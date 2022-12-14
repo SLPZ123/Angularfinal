@@ -3,13 +3,13 @@
     <form [formGroup]="formulario" (ngSubmit)="login()">
         <div class="row">
             <div class="col-md-4">
-                <mat-form-field appearance="fill" class="fill">
+                <mat-form-field appearance="fill" class="fill darken-2">
                     <mat-label>Usuario</mat-label>
                     <input matInput formControlName="usuario">
                 </mat-form-field>
             </div>
             <div class="col-md-4">
-                <mat-form-field appearance="fill" class="fill">
+                <mat-form-field appearance="fill" class="fill darken-2">
                     <mat-label>Contrasena</mat-label>
                     <input matInput formControlName="contrasena">
                 </mat-form-field>
@@ -22,11 +22,11 @@
             </div>
         </div>
     </form>
-    <div><pre>
+    <div><pre class="dark">
            Usuario Admin 
            usuario: admin@gmail.com 
            contrasena: 1234
-        -----------------------------------
+        
            Usuario usuario 
            usuario: usuario@gmail.com
            contrasena: 1234

@@ -2,3 +2,13 @@
     margin: auto;
     text-align: center;
 }
+
+.darken-2{
+    background-color: lightblue;
+}
+
+.dark{
+    background-color: blueviolet;
+    border: 5cm;
+    border-color: black;
+}
